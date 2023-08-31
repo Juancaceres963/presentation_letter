@@ -7,8 +7,13 @@
     color: var(--principal-letras);
 }
 /*General*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
 main{
-    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
