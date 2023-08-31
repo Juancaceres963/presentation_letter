@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500;600&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik+Iso&display=swap');
 *{
     margin: 0;
     padding: 0;
     --principal-letras: rgb(17, 15, 15); 
     --fondo-letras: rgb(176, 249, 252);
     color: var(--principal-letras);
+    font-family: font-family: 'Roboto', sans-serif;;
 }
 /*General*/
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    margin: 200px 0;
 }
 main{
     display: flex;
@@ -41,6 +42,12 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover{
+   transform: scale(1.2);
+   box-shadow: 0px 2px 8px 12px rgba(6, 152, 219, 0.514),0px 1px 20px 28px rgba(32, 158, 216, 0.479),  0px 1px 20px 35px rgba(173, 220, 241, 0.61);
+   transition: all 0.2s ease-in-out;
 }
 .name_card{
     background-color: var(--fondo-letras);
@@ -62,6 +69,7 @@ li{
     margin: 15px 0px 25px;
     border: 2.8px solid black;
     box-shadow: 0px 2px 8px 12px var(--fondo-letras);
+    
 }
 .contenido_card p{ 
     font-size: 18px;
