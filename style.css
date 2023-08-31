@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*General*/
+
+/*Utilidades*/
+
+/*Clases*/
+.card{
+    border: 2.5px solid black; 
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #FF8B01;
+}
