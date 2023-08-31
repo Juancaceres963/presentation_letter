@@ -3,7 +3,12 @@
     padding: 0;
 }
 /*General*/
-
+main{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*Utilidades*/
 
 /*Clases*/
@@ -12,4 +17,5 @@
     border-radius: 12px;
     padding: 12px;
     background-color: #FF8B01;
+    max-width: 260px;
 }
